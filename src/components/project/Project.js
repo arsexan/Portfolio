@@ -1,0 +1,14 @@
+
+import "./style.css"
+import { NavLink } from "react-router-dom"
+
+export const Project = ({title, img, index}) => {
+    return(
+        <NavLink to={`/SeparateProject/${index}`}>
+        <li className="project">
+            <img src={img} alt={title} className='project__img' />
+            <h3 className="project__title">{title}</h3>
+    </li>
+    </NavLink>
+    )
+}
