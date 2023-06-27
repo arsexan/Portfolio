@@ -11,7 +11,7 @@ import project03 from "./../../img/projects/03.jpg"
 
 export const projects = [
     {
-        title: 'Selling Site',
+        title: 'Landing Page',
         skills: 'HTML, CSS',
         img: project01,
         gitHubLink: 'https://arsexan.github.io/green-corp-landing/',
@@ -25,10 +25,10 @@ export const projects = [
         id: 2
     },
     {
-        title: 'SPA Portfolio',
+        title: 'Portfolio',
         skills: 'JS, React, CSS',
         img: project03,
-        gitHubLink: '#',
+        gitHubLink: 'https://arsexan.github.io/Portfolio/',
         id: 3
     },
 ]
