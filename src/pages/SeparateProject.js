@@ -22,7 +22,7 @@ export const SeparateProject = () => {
                     <p>Skills: {projectId.skills}</p>
                 </div>
 
-                {projectId.gitHubLink && (<ButtonGitHub link={'https://arsexan.github.io/green-corp-landing/'}/>)}
+                {projectId.gitHubLink && (<ButtonGitHub link={projectId.gitHubLink}/>)}
 
             </div>
         </div>
